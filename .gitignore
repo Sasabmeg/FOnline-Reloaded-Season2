@@ -19,66 +19,32 @@
 ## Developer files
 ##
 
-# AutomatedBuild directories
-/foclassic/SDK*
-
-# maintainers
-/foclassic/*.dev
-/foclassic/*.bat
-/foclassic/*.cmd
-/foclassic/*.pl
-/foclassic/*.sh
-*.user
-
-# customization
-/foclassic/CMakeFOClassic.txt
-
-##
-## CMake leftovers
-##
-
-# In-Source build
-/foclassic/CMakeCache.txt
-/foclassic/CMakeFiles
-
-# cmake --system-information
-/foclassic/__cmake_systeminformation
-
-##
-##	PReloaded
-##
-
 CrashDump*.txt
 
-/PReloaded/Client/*.log
-/PReloaded/Client/logs/
-/PReloaded/Client/data/cache/
-/PReloaded/Client/fallout.dat
-/PReloaded/Client/Mapper/*.log
-/PReloaded/Client/*cfg.bak
+/Client/*.log
+/Client/logs/
+/Client/data/cache/
+/Client/fallout.dat
+/Client/Mapper/*.log
+/Client/*cfg.bak
 
-/PReloaded/Mapper/*.log
-/PReloaded/Tools/DialogEditor/DialogEditor.log
-/PReloaded/Tools/WorldEditor/*.log
-/Preloaded/Client/clientlogs/*.log
+/Mapper/*.log
+/Tools/DialogEditor/DialogEditor.log
+/Tools/WorldEditor/*.log
+/Client/clientlogs/*.log
 
 
-/PReloaded/Server/config/**/*.bak
-/PReloaded/Server/dumps/
-/PReloaded/Server/logs/
-/PReloaded/Server/maps/**/*.fomapb
-/PReloaded/Server/save/
-/PReloaded/Server/scripts/**/*.fosb
-/PReloaded/Server/scripts/**/*.fosp
-/PReloaded/Server/cache_fail
+/Server/config/**/*.bak
+/Server/dumps/
+/Server/logs/
+/Server/maps/**/*.fomapb
+/Server/save/
+/Server/scripts/**/*.fosb
+/Server/scripts/**/*.fosp
+/Server/cache_fail
 
-/PReloadedServer/extensions/Debug/
-/PReloadedServer/extensions/Release/
-/PReloadedServer/extensions/**/Debug/
-/PReloadedServer/extensions/**/Release/
-
-/PReloaded/Tools/WorldEditor/Cache.dat
-/PReloaded/Tools/WorldEditor/WorldEditor.user.cfg
+/Tools/WorldEditor/Cache.dat
+/Tools/WorldEditor/WorldEditor.user.cfg
 
 .vs
 *.opensdf
