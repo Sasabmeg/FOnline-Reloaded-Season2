@@ -13,7 +13,7 @@
 intellisense*.h text eol=lf
 
 # syntax highlighting for .fos files
-*.fos linguist-language=C++
+*.fos linguist-language=AngelScript
 
 # binary
 *.acm  binary
@@ -62,3 +62,5 @@ intellisense*.h text eol=lf
 *.XLSX binary
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.ZIP filter=lfs diff=lfs merge=lfs -text
+*.dat filter=lfs diff=lfs merge=lfs -text
+*.DAT filter=lfs diff=lfs merge=lfs -text
